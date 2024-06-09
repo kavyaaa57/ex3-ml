@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-
+st.markdown("<h1 style='text-align: center;'>Code X</h1>", unsafe_allow_html=True)
 # Activation function: Sigmoid
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
